@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="test1">
+      <h2>Dice Roller</h2>
+      <form name="formA">
+        <label>Number of Dice: </label>
+        <select name="numDice">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option> </select
+        ><br /><br />
+        <label>Dice Type: </label>
+        <select name="diceType">
+          <option>4</option>
+          <option>6</option>
+          <option>8</option>
+          <option>10</option>
+          <option>12</option>
+          <option>20</option>
+          <option>100</option> </select
+        ><br /><br />
+        <button onclick="diceRoller(); return false;">Roll Now!</button>
+      </form>
+      <form name="formB">
+        <label>Individual Results: </label><br />
+        <textarea name="indResult"></textarea><br /><br />
+        <label>Total Result: </label><br />
+        <textarea name="totResult"></textarea><br /><br />
+      </form>
+    </div>
+  </body>
+</html>

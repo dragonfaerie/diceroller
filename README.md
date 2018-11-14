@@ -1,2 +1,0 @@
-# diceroller
-Created with CodeSandbox
